@@ -1,0 +1,38 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//variables
+$light-gray: #f7f7f7;
+$gray: #ccc;
+$red: #aa0000;
+
+body {
+    font-family: 'Nunito';
+    margin-top: 2rem;
+}
+
+form.card {
+    background: $light-gray;
+    padding: 1.5rem;
+
+    .form-group.row {
+        border-top: 1px solid $gray;
+        padding: 1rem 0;
+    }
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.small {
+    margin: 0;
+    text-align: right;
+}
+
+.error {
+    border-color: $red;
+}
